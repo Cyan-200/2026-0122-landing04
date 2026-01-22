@@ -1,0 +1,8 @@
+export { HomeCanvas } from './home.canvas'
+export { Nav } from './nav'
+export { Hero } from './hero'
+export { Residences } from './residences'
+export { Care } from './care'
+export { Intelligence } from './intelligence'
+export { Booking } from './booking'
+export { Footer } from './footer'
