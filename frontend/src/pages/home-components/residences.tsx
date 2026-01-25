@@ -9,17 +9,17 @@ const hotels = [
   {
     city: 'Beijing',
     name: 'Rosewood Beijing',
-    image: '/images/rosewood-beijing.jpg',
+    image: `${import.meta.env.BASE_URL}images/rosewood-beijing.jpg`,
   },
   {
     city: 'Shanghai',
     name: 'The Peninsula Shanghai',
-    image: '/images/peninsula-shanghai.jpg',
+    image: `${import.meta.env.BASE_URL}images/peninsula-shanghai.jpg`,
   },
   {
     city: 'Shenzhen',
     name: 'Park Hyatt Shenzhen',
-    image: '/images/park-hyatt-shenzhen.jpg',
+    image: `${import.meta.env.BASE_URL}images/park-hyatt-shenzhen.jpg`,
   },
 ]
 

@@ -60,7 +60,7 @@ export function Hero() {
         className="absolute inset-0 z-[1]"
       >
         <img
-          src="/images/hero-mother-suite.jpg"
+          src={`${import.meta.env.BASE_URL}images/hero-mother-suite.jpg`}
           alt="Serene hotel suite"
           className="w-full h-full object-cover scale-105"
         />
