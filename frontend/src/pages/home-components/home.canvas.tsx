@@ -17,7 +17,7 @@ interface GradientOrbProps {
 
 function GradientOrb({ position, baseColor, scrollColor, scale = 1, speed = 0.3 }: GradientOrbProps) {
   const meshRef = useRef<THREE.Mesh>(null)
-  const materialRef = useRef<THREE.MeshStandardMaterial>(null)
+  const materialRef = useRef<THREE.MeshStandardMaterial>(null!)
   const initialY = position[1]
 
   const baseColorObj = useMemo(() => new THREE.Color(baseColor), [baseColor])

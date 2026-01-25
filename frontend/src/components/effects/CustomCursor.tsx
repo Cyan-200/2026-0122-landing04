@@ -117,7 +117,7 @@ export function CustomCursor({
   useEffect(() => {
     if (type === 'default' || !lenis) return
 
-    let scrollTimeout: NodeJS.Timeout
+    let scrollTimeout: ReturnType<typeof setTimeout>
 
     const handleScroll = () => {
       setIsScrolling(true)

@@ -62,7 +62,7 @@ export function Care() {
     })
 
     // Individual card reveals
-    cards.forEach((card, index) => {
+    cards.forEach((card) => {
       gsap.fromTo(
         card,
         { opacity: 0.3, scale: 0.95 },
