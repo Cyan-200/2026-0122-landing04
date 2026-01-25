@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   publicDir: './frontend/public',
   root: './',
+  base: '/2026-0122-landing04/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './frontend/src'),
